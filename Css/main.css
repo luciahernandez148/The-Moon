@@ -1,0 +1,647 @@
+/* OTROS INICIO */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+*{
+    font-family: 'Space Mono', monospace;
+    text-decoration: none;
+    color: #6c757d;
+}
+
+
+/* OTROS FIN */
+/* HEADER INICIO */
+
+.navbar-nav{
+    font-size: 3rem;
+    gap: 2rem;
+}
+
+.navbar{
+    margin-top: -9rem;
+}
+
+.navbar2{
+    margin-top: -5rem;
+}
+
+.subtitle{
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+.logospx1{
+    width: 52rem;
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.nav-item{
+    background-color: none;
+}
+
+@media screen and (max-width: 768px){
+
+.subtitle{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.logospx1{
+    width: 45rem;
+    margin-left: 25%;
+}
+
+.nav-item{
+    color: rgb(132, 131, 131);
+    background-color: rgb(255, 255, 255);
+    border-radius: .7rem;
+    font-size: 2rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav{
+    font-size: 3rem;
+    gap: .7rem;
+}
+
+.button-move{
+
+    margin-right: 2rem;
+    margin-top: 1.6rem;
+}
+
+}
+@media screen and (max-width: 500px){
+
+    .button-move{
+
+        margin-right: -13rem;
+        margin-top: 1.5rem;
+    }
+}
+
+/* HEADER FIN */
+/* MAIN INICIO */
+
+#fondomain{
+    background-image: url(../Imagenes/fondomain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer1{
+    
+    display: flex;
+    margin-top: 77rem;
+    justify-content: center;
+}
+
+.footer1{
+    
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem 10rem;
+    grid-template-rows: 2rem 3rem;
+    grid-template-areas:
+    "spacex spacex spacex spacex"
+    "sm sm sm sm";
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.grids4{
+    grid-area: spacex;
+}
+
+.grids5{
+    grid-area: sm;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 768px){
+
+#fondomain{
+    background-image: url(../Imagenes/themoonmovil.png);
+}
+
+}
+
+@media screen and (max-width: 500px){
+
+#fondomain{
+        background-image: url(../Imagenes/themoonmovil.png);
+    }
+
+    .footer1{
+        margin-top: 30rem;
+    }
+}
+
+
+/* MAIN FIN */
+/* ABOUT US INCIO*/
+
+
+
+#fondoaboutus{
+    background-image: url(../Imagenes/fondoaboutus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor-total-2{
+
+    display: grid;
+    grid-template-columns: 70rem 60rem 60rem;
+    grid-template-rows: 25rem 35rem 25rem 35rem ;
+    grid-template-areas:
+    "video text3 photo2"
+    "video photo photo2"
+    "text4 video2 photo2"
+    "photo3 video2 photo2";
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
+    padding: 11rem;
+}
+
+.video{
+    grid-area: video;
+}
+
+.photo{
+    grid-area: photo;
+}
+
+.photo2{
+    grid-area: photo2;
+}
+
+.text2{
+    grid-area: text3;
+}
+
+.video2{
+    grid-area: video2;
+}
+
+.text4{
+    grid-area: text4;
+}
+
+.photo3{
+    grid-area: photo3;
+}
+.elon1{
+    width: 47rem;
+}
+
+.spacexrocket{
+    width: 20rem;
+}
+
+.video4{
+    width: 55em;
+    height: 55rem;
+}
+
+
+/* ABOUT US FIN*/
+/* GALLERY INCIO*/
+
+
+
+#fondogallery{
+    background-image: url(../Imagenes/fondogallery.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-change{
+    
+line-height:300px;
+margin:0px auto;
+text-align:center;
+justify-content: center;
+align-content: center;
+}
+
+.carousel-change-2{
+    height: 70rem;
+}
+
+.arrow{
+    width: 11rem;
+    height: 10rem;
+}
+
+@media screen and (max-width: 768px){
+    
+
+#fondogallery{
+    background-image: url(../Imagenes/gallery-mobile-09.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.carousel-change{
+    margin-top: 3rem;
+    height: 80rem;
+
+}
+}
+
+@media screen and (max-width: 500px){
+
+
+    .carousel-change{
+        margin-top: 3rem;
+        height: 60rem;
+    }
+    }
+/* GALLERY FIN*/
+/* PROCESS INICIO*/
+
+#fondoprocess{
+
+    background-image: url(../Imagenes/fondoprocess.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contenedortotal{
+
+    display: grid;
+    grid-template-columns: 30rem 32rem 32rem 32rem 32rem 25rem;
+    grid-template-rows: 5rem 4rem 30rem 30rem;
+    grid-template-areas:
+    "photos1 title title title title photos2 "
+    "photos1 subtitle1 subtitle2 subtitle3 subtitle4 photos2 "
+    "photos1 description1 description2 description3 description4 photos2 "
+    "photos1 photo1 photo2 photo3 photo4 photos2";
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
+    padding-top: 11rem;
+}
+
+.processtitle{
+
+    grid-area: title;
+    font-size: 25px;
+}
+
+.border{
+
+    border: 1px solid white;
+}
+
+.subtitlesx4{
+
+    font-size: 2rem;    
+}
+
+.step1{
+
+    grid-area: subtitle1;
+
+}
+
+.step2{
+
+    grid-area: subtitle2;
+}
+
+.step3{
+
+    grid-area: subtitle3;
+}
+
+.step4{
+
+    grid-area: subtitle4;
+}
+
+.p1{
+    grid-area: description1;
+    font-size: 2px;
+}
+
+.p2{
+    grid-area: description2;
+    font-size: 2px;
+}
+
+.p3{
+    grid-area: description3;
+    font-size: 2px;
+}
+
+.p4{
+    grid-area: description4;
+    font-size: 2px;
+}
+
+.photo1{
+    width: 300px;
+    grid-area: photo1;
+}
+
+.photo2{
+    width: 300px;
+    grid-area: photo2;
+}
+
+.photo3{
+    width: 300px;
+    grid-area: photo3;
+}
+
+.photo4{
+    width: 300px;
+    grid-area: photo4;
+}
+
+.imgastronaut1{
+
+    grid-area: photos1;
+    width: 17rem;
+}
+
+.imgastronaut2{
+
+    grid-area: photos2;
+    width: 23rem;
+}
+
+/* PROCESS FIN*/
+/* BUY TICKETS INCIO*/
+
+
+
+#fondobuytickets{
+    background-image: url(../Imagenes/fondobuytickets.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-flex-main{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    justify-content: center;
+    margin-top: 11rem;
+}
+
+.div1{
+    width: 50rem;
+    background-color: aqua;
+    border-bottom: outset 1rem white;
+    border-right: outset 1rem white;
+}
+
+.div2{
+    width: 50rem;
+    background-color: rgb(23, 204, 17);
+    border-bottom: outset 1rem white;
+    border-right: outset 1rem white;
+
+}
+
+.div3{
+    width: 50rem;
+    background-color: rgb(204, 17, 132);
+    border-bottom: outset 1rem white;
+    border-right: outset 1rem white;
+}
+
+
+.h1caract{
+
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 6rem; 
+    
+}
+
+.h2caract{
+
+    text-align: center;
+    font-size: 2rem;
+    align-items: baseline;
+
+
+}
+
+.pcaract{
+    color: rgb(253, 253, 12);
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem;
+    list-style: none;
+    margin-top: 2rem;   
+
+}
+
+.h3caract{
+
+    text-align: center;
+    font-size: 20px;
+    margin-top: 6rem; 
+}
+
+/* TABLET */
+@media screen and (max-width: 768px){
+    .buyticketstablet{
+        flex-direction: column;
+    }
+
+    .container-flex{
+        background-color: rgba(0, 81, 255, 0.048);
+        height: 20rem;      
+    }
+
+    .logospx{
+        width: 50rem;
+
+    }
+
+    .logospx2{
+        align-items: center;
+        justify-content: center;
+
+    }
+
+        .navbar{
+            font-size: .6rem;
+            align-content: center;
+            justify-items: center;
+        }
+
+    .container-flex-main{
+
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20rem;
+    }    
+
+        .div1{
+            border-bottom: none;
+            border-right: none;
+            border-top: outset 1rem rgb(255, 255, 255);
+        }
+
+        .div2{
+            border-bottom: none;
+            border-right: none;
+            border-top: outset 1rem rgb(255, 255, 255);
+        }
+
+        .div3{
+            border-bottom: none;
+            border-right: none;
+            border-top: outset 1rem rgb(255, 255, 255);
+        }
+    }
+
+
+        /* CELULAR */
+    @media screen and (max-width: 500px){
+        #buyticketstablet{
+            flex-wrap: nowrap;
+            gap: 1rem;
+            background-color: greenyellow;
+            justify-content: center;
+            
+        }
+        
+    }
+
+
+/* BUY TICKETS FIN*/
+/* CONTACT INICIO */
+
+
+
+#fondocontact{
+    background-image: url(../Imagenes/fondocontactus-05.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.background1{
+
+    background-color: rgba(105, 105, 105, 0.295);
+    width: 102rem;
+    height: 51rem;
+    padding: 3rem;
+    margin-top: 10%;
+
+}
+
+.fschange{
+
+    font-size: 4rem;
+}
+
+.background5{
+
+    display: grid;
+    grid-template-columns: 70rem 50rem;
+    grid-template-rows: 7rem 50rem;
+    grid-template-areas:
+    "text5 text5"
+    "photo5 text6";
+}
+
+.text5{
+    grid-area: text5;
+}
+
+.photo5{
+    grid-area: photo5;
+}
+
+.text6{
+    grid-area: text6;
+}
+
+.submit-m{
+    margin-left: 19.5rem;
+}
+
+
+
+/* CONTACT FIN */
+/* ACCOUNT INICIO */
+
+
+
+#fondosignin{
+    background-image: url(../Imagenes/fondoaccount-07.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background2{
+
+    background-color: rgba(105, 105, 105, 0.295);
+    width: 75rem;
+    height: 37rem;
+
+}
+
+.grids-account{
+
+    display: grid;
+    grid-template-columns: 33rem 40rem 30rem ;
+    grid-template-rows:50rem ;
+    grid-template-areas:
+    "photo22 text20 photo11";
+}
+
+.mt{
+    margin-top: 18rem;
+}
+.m-photo{
+    margin-left: 9rem;
+}
+
+.m-photo-3{
+    margin-left: 1rem;
+}
+
+.fschange2{
+
+    font-size: 1rem;
+}
+
+.text20{
+    grid-area: text20;
+}
+
+.photo11{
+    grid-area: photo11;
+}
+
+.photo22{
+    grid-area: photo22;
+}
+/* ACCOUNT FIN */
+
