@@ -28,7 +28,7 @@ p{
 }
 
 .navbar{
-    margin-top: -9rem;
+    margin-top: -8.2rem;
 }
 
 .navbar2{
@@ -87,11 +87,18 @@ p{
 }
 @media screen and (max-width: 500px){
 
-    .button-move{
+.button-move{
 
-        margin-right: -13rem;
-        margin-top: 1.5rem;
-    }
+    margin-right: 1rem;
+    margin-top: 3.5rem;
+}
+
+.logospx1{
+    width: 30rem;
+}
+
+
+
 }
 
 /* HEADER FIN */
@@ -106,7 +113,7 @@ p{
 .footer1{
     
     display: flex;
-    margin-top: 77rem;
+    margin-top: 75rem;
     justify-content: center;
 }
 
@@ -137,17 +144,21 @@ p{
     background-image: url(../Imagenes/themoonmovil.png);
 }
 
+.footer1{
+
+    margin-top: 85rem;
+
+}
 }
 
 @media screen and (max-width: 500px){
 
-#fondomain{
-        background-image: url(../Imagenes/themoonmovil.png);
-    }
 
-    .footer1{
-        margin-top: 30rem;
-    }
+.footer1{
+    margin-top: 94rem;
+}
+
+
 }
 
 
