@@ -2,49 +2,34 @@
     background-image: url(../Imagenes/fondoaccount-07.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.background2{
-
-    background-color: $FondoTransparente;
-    width: 75rem;
-    height: 37rem;
-
-}
-
-.grids-account{
-
-    display: grid;
-    grid-template-columns: 33rem 40rem 30rem ;
-    grid-template-rows:50rem ;
-    grid-template-areas:
-    "photo22 text20 photo11";
-}
-
-.mt{
-    margin-top: 18rem;
-}
-.m-photo{
-    margin-left: 9rem;
-}
-
-.m-photo-3{
-    margin-left: 1rem;
-}
-
-.fschange2{
-
-    font-size: 1rem;
-}
-
-.text20{
-    grid-area: text20;
-}
-
-.photo11{
-    grid-area: photo11;
-}
-
-.photo22{
-    grid-area: photo22;
+    .mt{
+        margin-top: 18rem;
+        .grids-account{
+            display: grid;
+            grid-template-columns: 33rem 40rem 30rem ;
+            grid-template-rows:50rem ;
+            grid-template-areas:
+            "photo22 text20 photo11";
+            .text20{
+                grid-area: text20;
+                }
+            .photo11{
+                grid-area: photo11;
+                }
+            .photo22{
+                grid-area: photo22;
+            }
+            .background2{
+                background-color: $FondoTransparente;
+                width: 75rem;
+                height: 37rem;
+            }
+            .m-photo{
+                margin-left: 9rem;
+                }
+            .m-photo-3{
+                margin-left: 1rem;
+                }
+        }
+    }
 }

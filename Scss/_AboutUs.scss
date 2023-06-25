@@ -2,60 +2,56 @@
     background-image: url(../Imagenes/fondoaboutus.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.contenedor-total-2{
-
-    display: grid;
-    grid-template-columns: 70rem 60rem 60rem;
-    grid-template-rows: 25rem 35rem 25rem 35rem ;
-    grid-template-areas:
-    "video text3 photo2"
-    "video photo photo2"
-    "text4 video2 photo2"
-    "photo3 video2 photo2";
-    justify-items: center;
-    align-items: center;
-    gap: 5px;
-    padding: 11rem;
-}
-
-.video{
-    grid-area: video;
-}
-
-.photo{
-    grid-area: photo;
-}
-
-.photo2{
-    grid-area: photo2;
-}
-
-.text2{
-    grid-area: text3;
-}
-
-.video2{
-    grid-area: video2;
-}
-
-.text4{
-    grid-area: text4;
-}
-
-.photo3{
-    grid-area: photo3;
-}
-.elon1{
-    width: 47rem;
-}
-
-.spacexrocket{
-    width: 20rem;
-}
-
-.video4{
-    width: 55em;
-    height: 55rem;
+        .contenedor-total-2{
+            display: grid;
+            grid-template-columns: 70rem 60rem 60rem;
+            grid-template-rows: 25rem 35rem 25rem 35rem ;
+            grid-template-areas:
+            "video text3 photo2"
+            "video photo photo2"
+            "text4 video2 photo2"
+            "photo3 video2 photo2";
+            justify-items: center;
+            align-items: center;
+            gap: 5px;
+            padding: 11rem;
+            .video{
+                grid-area: video;
+                .video4{
+                    width: 55em;
+                    height: 55rem;
+                }
+            }
+            .photo{
+                grid-area: photo;
+                .elon1{
+                    width: 47rem;
+                }
+            }
+            .photo2{
+                grid-area: photo2;
+                .spacexrocket{
+                    width: 20rem;
+                }
+            }
+            .text2{
+                grid-area: text3;
+            }
+            .video2{
+                grid-area: video2;
+                .video4{
+                    width: 55em;
+                    height: 55rem;
+                }
+            }
+            .text4{
+            grid-area: text4;
+            }
+            .photo3{
+            grid-area: photo3;
+            .elon1{
+                width: 47rem;
+            }
+            }
+        }
 }

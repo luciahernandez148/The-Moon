@@ -2,46 +2,32 @@
     background-image: url(../Imagenes/fondocontactus-05.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-
-.background1{
-
-    background-color: $FondoTransparente;
-    width: 102rem;
-    height: 51rem;
-    padding: 3rem;
-    margin-top: 10%;
-
-}
-
-.fschange{
-
-    font-size: 4rem;
-}
-
-.background5{
-
-    display: grid;
-    grid-template-columns: 70rem 50rem;
-    grid-template-rows: 7rem 50rem;
-    grid-template-areas:
-    "text5 text5"
-    "photo5 text6";
-}
-
-.text5{
-    grid-area: text5;
-}
-
-.photo5{
-    grid-area: photo5;
-}
-
-.text6{
-    grid-area: text6;
-}
-
-.submit-m{
-    margin-left: 19.5rem;
+    .background1{
+        display: grid;
+        grid-template-columns: 70rem 50rem;
+        grid-template-rows: 7rem 50rem;
+        grid-template-areas:
+        "text5 text5"
+        "photo5 text6";
+        background-color: $FondoTransparente;
+        width: 102rem;
+        height: 51rem;
+        padding: 3rem;
+        margin-top: 10%;
+        .text5{
+            grid-area: text5;
+            }   
+            .fschange{
+                font-size: 4rem;
+                }
+        .text6{
+            grid-area: text6;
+            }
+            .submit-m{
+                margin-left: 19.5rem;
+                }
+        .photo5{
+            grid-area: photo5;
+            }
+    }
 }

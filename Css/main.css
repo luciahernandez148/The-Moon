@@ -169,7 +169,7 @@ p{
 
 
 MAIN FIN */
-/* ABOUT US INCIO*/
+/* ABOUT US INCIO
 
 
 
@@ -237,7 +237,7 @@ MAIN FIN */
 
 
 /* ABOUT US FIN*/
-/* GALLERY INCIO*/
+/* GALLERY INCIO
 
 
 
@@ -326,7 +326,7 @@ align-content: center;
 }
     }
 /* GALLERY FIN*/
-/* PROCESS INICIO*/
+/* PROCESS INICIO
 
 #fondoprocess{
 
@@ -442,7 +442,7 @@ align-content: center;
 }
 
 /* PROCESS FIN*/
-/* BUY TICKETS INCIO*/
+/* BUY TICKETS INCIO
 
 
 
@@ -517,7 +517,7 @@ align-content: center;
     margin-top: 6rem; 
 }
 
-/* TABLET */
+/* TABLET
 @media screen and (max-width: 768px){
     .buyticketstablet{
         flex-direction: column;
@@ -572,7 +572,7 @@ align-content: center;
     }
 
 
-        /* CELULAR */
+        /* CELULAR
     @media screen and (max-width: 500px){
         #buyticketstablet{
             flex-wrap: nowrap;
@@ -585,8 +585,8 @@ align-content: center;
     }
 
 
-/* BUY TICKETS FIN*/
-/* CONTACT INICIO */
+BUY TICKETS FIN*/
+/* CONTACT INICIO
 
 
 

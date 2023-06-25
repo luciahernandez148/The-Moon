@@ -4,11 +4,11 @@
     background-image: url(../Imagenes/fondomain.png);
     background-repeat: no-repeat;
     background-size: cover;
-    footer1 {
+    .footer1 {
         display: flex;
         margin-top: 75rem;
         justify-content: center;
-        footer2{
+        .footer2{
             display: grid;
             grid-template-columns: 10rem 10rem 10rem 10rem;
             grid-template-rows: 2rem 3rem;
@@ -18,10 +18,10 @@
             justify-items: center;
             align-items: center;
             gap: 5px;
-            grids4{
+            .grids4{
                 grid-area: spacex;
             }
-            grids5{
+            .grids5{
                 grid-area: sm;
                 font-size: 1.5rem;
             }

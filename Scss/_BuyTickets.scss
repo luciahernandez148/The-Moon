@@ -2,136 +2,143 @@
     background-image: url(../Imagenes/fondobuytickets.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.container-flex-main{
-    display: flex;
-    flex-direction: row;
-    gap: 7rem;
-    justify-content: center;
-    margin-top: 11rem;
-}
-
-.div1{
-    width: 50rem;
-    background-color: aqua;
-    border-bottom: outset 1rem white;
-    border-right: outset 1rem white;
-}
-
-.div2{
-    width: 50rem;
-    background-color: rgb(23, 204, 17);
-    border-bottom: outset 1rem white;
-    border-right: outset 1rem white;
-
-}
-
-.div3{
-    width: 50rem;
-    background-color: rgb(204, 17, 132);
-    border-bottom: outset 1rem white;
-    border-right: outset 1rem white;
-}
-
-
-.h1caract{
-
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 6rem; 
-    
-}
-
-.h2caract{
-
-    text-align: center;
-    font-size: 2rem;
-    align-items: baseline;
-
-
-}
-
-.pcaract{
-    color: rgb(253, 253, 12);
-    font-size: 2rem;
-    text-align: left;
-    padding: 1rem;
-    list-style: none;
-    margin-top: 2rem;   
-
-}
-
-.h3caract{
-
-    text-align: center;
-    font-size: 20px;
-    margin-top: 6rem; 
+    .container-flex-main{
+        display: flex;
+        flex-direction: row;
+        gap: 7rem;
+        justify-content: center;
+        margin-top: 11rem;
+        .div1{
+            width: 50rem;
+            background-color: aqua;
+            border-bottom: outset 1rem white;
+            border-right: outset 1rem white;
+            .h1caract{
+                text-align: center;
+                font-size: 3rem;
+                margin-top: 6rem; 
+            }
+            .h2caract{
+                text-align: center;
+                font-size: 2rem;
+                align-items: baseline;
+            }
+            .h3caract{
+                text-align: center;
+                font-size: 20px;
+                margin-top: 6rem; 
+            }
+            .pcaract{
+                color: rgb(253, 253, 12);
+                font-size: 2rem;
+                text-align: left;
+                padding: 1rem;
+                list-style: none;
+                margin-top: 2rem;   
+            }
+        }
+        .div2{
+            width: 50rem;
+            background-color: rgb(23, 204, 17);
+            border-bottom: outset 1rem white;
+            border-right: outset 1rem white;
+            .h1caract{
+                text-align: center;
+                font-size: 3rem;
+                margin-top: 6rem; 
+            }
+            .h2caract{
+                text-align: center;
+                font-size: 2rem;
+                align-items: baseline;
+            }
+            .h3caract{
+                text-align: center;
+                font-size: 20px;
+                margin-top: 6rem; 
+            }
+            .pcaract{
+                color: rgb(253, 253, 12);
+                font-size: 2rem;
+                text-align: left;
+                padding: 1rem;
+                list-style: none;
+                margin-top: 2rem;   
+            }
+        }
+        .div3{
+            width: 50rem;
+            background-color: rgb(204, 17, 132);
+            border-bottom: outset 1rem white;
+            border-right: outset 1rem white;
+            .h1caract{
+                text-align: center;
+                font-size: 3rem;
+                margin-top: 6rem; 
+            }
+            .h2caract{
+                text-align: center;
+                font-size: 2rem;
+                align-items: baseline;
+            }
+            .h3caract{
+                text-align: center;
+                font-size: 20px;
+                margin-top: 6rem; 
+            }
+            .pcaract{
+                color: rgb(253, 253, 12);
+                font-size: 2rem;
+                text-align: left;
+                padding: 1rem;
+                list-style: none;
+                margin-top: 2rem;   
+            }
+        }
+    }
 }
 
 /* TABLET */
 @media screen and (max-width: 768px){
-    .buyticketstablet{
-        flex-direction: column;
+
+.navbar{
+        font-size: .6rem;
+        align-content: center;
+        justify-items: center;
     }
 
-    .container-flex{
-        background-color: rgba(0, 81, 255, 0.048);
-        height: 20rem;      
-    }
-
-    .logospx{
-        width: 50rem;
-
-    }
-
-    .logospx2{
-        align-items: center;
-        justify-content: center;
-
-    }
-
-        .navbar{
-            font-size: .6rem;
-            align-content: center;
-            justify-items: center;
-        }
-
-    .container-flex-main{
-
+.buyticketstablet{
     flex-direction: column;
-    align-items: center;
-    padding-top: 20rem;
-    }    
-
+    .container-flex-main{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20rem;
         .div1{
             border-bottom: none;
             border-right: none;
             border-top: outset 1rem rgb(255, 255, 255);
         }
-
         .div2{
             border-bottom: none;
             border-right: none;
             border-top: outset 1rem rgb(255, 255, 255);
         }
-
         .div3{
             border-bottom: none;
             border-right: none;
             border-top: outset 1rem rgb(255, 255, 255);
         }
     }
+}
+}
 
+/* CELULAR */
+@media screen and (max-width: 500px){
 
-        /* CELULAR */
-    @media screen and (max-width: 500px){
-        #buyticketstablet{
-            flex-wrap: nowrap;
-            gap: 1rem;
-            background-color: greenyellow;
-            justify-content: center;
-            
-        }
-        
-    }
+#buyticketstablet{
+    flex-wrap: nowrap;
+    gap: 1rem;
+    background-color: greenyellow;
+    justify-content: center;
+}
+}

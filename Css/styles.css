@@ -1,3 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+html {
+  font-size: 62.5%;
+}
 
+p {
+  font-size: 1.5rem;
+}
+
+* {
+  font-family: "Space Mono", monospace;
+  text-decoration: none;
+  color: #6c757d;
+}
+
+/* HEADER INICIO */
+.header1 .logospx1 {
+  width: 52rem;
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+.header1 .subtitle {
+  font-size: 2rem;
+  margin-left: 4rem;
+}
+.header1 .navbar {
+  margin-top: -8.2rem;
+}
+.header1 .navbar .navbar-nav {
+  font-size: 3rem;
+  gap: 2rem;
+}
+.header1 .navbar .nav-item {
+  background-color: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header1 .subtitle {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .header1 .logospx1 {
+    width: 45rem;
+    margin-left: 25%;
+  }
+  .header1 .navbar .navbar-nav {
+    font-size: 3rem;
+    gap: 0.7rem;
+  }
+  .header1 .navbar .nav-item {
+    color: #6c757d;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.7rem;
+    font-size: 2rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .header1 .button-move {
+    margin-right: 2rem;
+    margin-top: 1.6rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header .logospx1 {
+    width: 30rem;
+  }
+  .header .button-move {
+    margin-right: 1rem;
+    margin-top: 3.5rem;
+  }
+}
+/* HEADER FIN */
+/* MAIN INICIO */
+.fondomain {
+  background-image: url(../Imagenes/fondomain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fondomain .footer1 {
+  display: flex;
+  margin-top: 75rem;
+  justify-content: center;
+}
+.fondomain .footer1 .footer2 {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem 10rem;
+  grid-template-rows: 2rem 3rem;
+  grid-template-areas: "spacex spacex spacex spacex" "sm sm sm sm";
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+}
+.fondomain .footer1 .footer2 .grids4 {
+  grid-area: spacex;
+}
+.fondomain .footer1 .footer2 .grids5 {
+  grid-area: sm;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .fondomain {
+    background-image: url(../Imagenes/themoonmovil.png);
+  }
+  .fondomain footer1 {
+    margin-top: 85rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .fondomain {
+    background-image: url(../Imagenes/themoonmobile.png);
+  }
+  .fondomain footer1 {
+    margin-top: 94rem;
+  }
+}
+#fondoaboutus {
+  background-image: url(../Imagenes/fondoaboutus.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#fondoaboutus .contenedor-total-2 {
+  display: grid;
+  grid-template-columns: 70rem 60rem 60rem;
+  grid-template-rows: 25rem 35rem 25rem 35rem;
+  grid-template-areas: "video text3 photo2" "video photo photo2" "text4 video2 photo2" "photo3 video2 photo2";
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+  padding: 11rem;
+}
+#fondoaboutus .contenedor-total-2 .video {
+  grid-area: video;
+}
+#fondoaboutus .contenedor-total-2 .video .video4 {
+  width: 55em;
+  height: 55rem;
+}
+#fondoaboutus .contenedor-total-2 .photo {
+  grid-area: photo;
+}
+#fondoaboutus .contenedor-total-2 .photo .elon1 {
+  width: 47rem;
+}
+#fondoaboutus .contenedor-total-2 .photo2 {
+  grid-area: photo2;
+}
+#fondoaboutus .contenedor-total-2 .photo2 .spacexrocket {
+  width: 20rem;
+}
+#fondoaboutus .contenedor-total-2 .text2 {
+  grid-area: text3;
+}
+#fondoaboutus .contenedor-total-2 .video2 {
+  grid-area: video2;
+}
+#fondoaboutus .contenedor-total-2 .video2 .video4 {
+  width: 55em;
+  height: 55rem;
+}
+#fondoaboutus .contenedor-total-2 .text4 {
+  grid-area: text4;
+}
+#fondoaboutus .contenedor-total-2 .photo3 {
+  grid-area: photo3;
+}
+#fondoaboutus .contenedor-total-2 .photo3 .elon1 {
+  width: 47rem;
+}
+
+#fondogallery {
+  background-image: url(../Imagenes/fondogallery.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#fondogallery .carousel-change {
+  line-height: 300px;
+  margin: 0px auto;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+#fondogallery .carousel-change .carousel-change-2 {
+  height: 70rem;
+}
+#fondogallery .carousel-change .arrow {
+  width: 11rem;
+  height: 10rem;
+}
+#fondogallery .footer5 {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+}
+#fondogallery .footer5 .footer7 {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem 10rem;
+  grid-template-rows: 2rem 3rem;
+  grid-template-areas: "spacex spacex spacex spacex" "sm sm sm sm";
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+}
+#fondogallery .footer5 .footer7 .grids4 {
+  grid-area: spacex;
+}
+#fondogallery .footer5 .footer7 .grids5 {
+  grid-area: sm;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .row-mobile {
+    display: none;
+  }
+  #navbarText {
+    z-index: 100;
+  }
+  #fondogallery {
+    background-image: url(../Imagenes/gallery-mobile-09.png);
+  }
+  .carousel-change {
+    margin-top: 12rem;
+    width: 70rem;
+    height: 60rem;
+  }
+  .footer5 {
+    margin-top: 22rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .carousel-change {
+    margin-top: 9rem;
+    width: 40rem;
+    height: 60rem;
+  }
+  .footer5 {
+    margin-top: 26rem;
+  }
+}
+#fondoprocess {
+  background-image: url(../Imagenes/fondoprocess.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#fondoprocess .contenedortotal {
+  display: grid;
+  grid-template-columns: 30rem 32rem 32rem 32rem 32rem 25rem;
+  grid-template-rows: 5rem 4rem 30rem 30rem;
+  grid-template-areas: "photos1 title title title title photos2 " "photos1 subtitle1 subtitle2 subtitle3 subtitle4 photos2 " "photos1 description1 description2 description3 description4 photos2 " "photos1 photo1 photo2 photo3 photo4 photos2";
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+  padding-top: 11rem;
+}
+#fondoprocess .contenedortotal .processtitle {
+  grid-area: title;
+  font-size: 25px;
+}
+#fondoprocess .contenedortotal .subtitlesx4 {
+  font-size: 2rem;
+}
+#fondoprocess .contenedortotal .step1 {
+  grid-area: subtitle1;
+}
+#fondoprocess .contenedortotal .step2 {
+  grid-area: subtitle2;
+}
+#fondoprocess .contenedortotal .step3 {
+  grid-area: subtitle3;
+}
+#fondoprocess .contenedortotal .step4 {
+  grid-area: subtitle4;
+}
+#fondoprocess .contenedortotal .p1 {
+  grid-area: description1;
+  font-size: 2px;
+}
+#fondoprocess .contenedortotal .p2 {
+  grid-area: description2;
+  font-size: 2px;
+}
+#fondoprocess .contenedortotal .p3 {
+  grid-area: description3;
+  font-size: 2px;
+}
+#fondoprocess .contenedortotal .p4 {
+  grid-area: description4;
+  font-size: 2px;
+}
+#fondoprocess .contenedortotal .photo1 {
+  width: 300px;
+  grid-area: photo1;
+}
+#fondoprocess .contenedortotal .photo2 {
+  width: 300px;
+  grid-area: photo2;
+}
+#fondoprocess .contenedortotal .photo3 {
+  width: 300px;
+  grid-area: photo3;
+}
+#fondoprocess .contenedortotal .photo4 {
+  width: 300px;
+  grid-area: photo4;
+}
+#fondoprocess .contenedortotal .imgastronaut1 {
+  grid-area: photos1;
+  width: 17rem;
+}
+#fondoprocess .contenedortotal .imgastronaut2 {
+  grid-area: photos2;
+  width: 23rem;
+}
+
+#fondobuytickets {
+  background-image: url(../Imagenes/fondobuytickets.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#fondobuytickets .container-flex-main {
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+  justify-content: center;
+  margin-top: 11rem;
+}
+#fondobuytickets .container-flex-main .div1 {
+  width: 50rem;
+  background-color: aqua;
+  border-bottom: outset 1rem white;
+  border-right: outset 1rem white;
+}
+#fondobuytickets .container-flex-main .div1 .h1caract {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 6rem;
+}
+#fondobuytickets .container-flex-main .div1 .h2caract {
+  text-align: center;
+  font-size: 2rem;
+  align-items: baseline;
+}
+#fondobuytickets .container-flex-main .div1 .h3caract {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 6rem;
+}
+#fondobuytickets .container-flex-main .div1 .pcaract {
+  color: rgb(253, 253, 12);
+  font-size: 2rem;
+  text-align: left;
+  padding: 1rem;
+  list-style: none;
+  margin-top: 2rem;
+}
+#fondobuytickets .container-flex-main .div2 {
+  width: 50rem;
+  background-color: rgb(23, 204, 17);
+  border-bottom: outset 1rem white;
+  border-right: outset 1rem white;
+}
+#fondobuytickets .container-flex-main .div2 .h1caract {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 6rem;
+}
+#fondobuytickets .container-flex-main .div2 .h2caract {
+  text-align: center;
+  font-size: 2rem;
+  align-items: baseline;
+}
+#fondobuytickets .container-flex-main .div2 .h3caract {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 6rem;
+}
+#fondobuytickets .container-flex-main .div2 .pcaract {
+  color: rgb(253, 253, 12);
+  font-size: 2rem;
+  text-align: left;
+  padding: 1rem;
+  list-style: none;
+  margin-top: 2rem;
+}
+#fondobuytickets .container-flex-main .div3 {
+  width: 50rem;
+  background-color: rgb(204, 17, 132);
+  border-bottom: outset 1rem white;
+  border-right: outset 1rem white;
+}
+#fondobuytickets .container-flex-main .div3 .h1caract {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 6rem;
+}
+#fondobuytickets .container-flex-main .div3 .h2caract {
+  text-align: center;
+  font-size: 2rem;
+  align-items: baseline;
+}
+#fondobuytickets .container-flex-main .div3 .h3caract {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 6rem;
+}
+#fondobuytickets .container-flex-main .div3 .pcaract {
+  color: rgb(253, 253, 12);
+  font-size: 2rem;
+  text-align: left;
+  padding: 1rem;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+  .navbar {
+    font-size: 0.6rem;
+    align-content: center;
+    justify-items: center;
+  }
+  .buyticketstablet {
+    flex-direction: column;
+  }
+  .buyticketstablet .container-flex-main {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20rem;
+  }
+  .buyticketstablet .container-flex-main .div1 {
+    border-bottom: none;
+    border-right: none;
+    border-top: outset 1rem rgb(255, 255, 255);
+  }
+  .buyticketstablet .container-flex-main .div2 {
+    border-bottom: none;
+    border-right: none;
+    border-top: outset 1rem rgb(255, 255, 255);
+  }
+  .buyticketstablet .container-flex-main .div3 {
+    border-bottom: none;
+    border-right: none;
+    border-top: outset 1rem rgb(255, 255, 255);
+  }
+}
+/* CELULAR */
+@media screen and (max-width: 500px) {
+  #buyticketstablet {
+    flex-wrap: nowrap;
+    gap: 1rem;
+    background-color: greenyellow;
+    justify-content: center;
+  }
+}
+#fondocontact {
+  background-image: url(../Imagenes/fondocontactus-05.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#fondocontact .background1 {
+  display: grid;
+  grid-template-columns: 70rem 50rem;
+  grid-template-rows: 7rem 50rem;
+  grid-template-areas: "text5 text5" "photo5 text6";
+  background-color: rgba(105, 105, 105, 0.295);
+  width: 102rem;
+  height: 51rem;
+  padding: 3rem;
+  margin-top: 10%;
+}
+#fondocontact .background1 .text5 {
+  grid-area: text5;
+}
+#fondocontact .background1 .fschange {
+  font-size: 4rem;
+}
+#fondocontact .background1 .text6 {
+  grid-area: text6;
+}
+#fondocontact .background1 .submit-m {
+  margin-left: 19.5rem;
+}
+#fondocontact .background1 .photo5 {
+  grid-area: photo5;
+}
+
+#fondosignin {
+  background-image: url(../Imagenes/fondoaccount-07.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#fondosignin .mt {
+  margin-top: 18rem;
+}
+#fondosignin .mt .grids-account {
+  display: grid;
+  grid-template-columns: 33rem 40rem 30rem;
+  grid-template-rows: 50rem;
+  grid-template-areas: "photo22 text20 photo11";
+}
+#fondosignin .mt .grids-account .text20 {
+  grid-area: text20;
+}
+#fondosignin .mt .grids-account .photo11 {
+  grid-area: photo11;
+}
+#fondosignin .mt .grids-account .photo22 {
+  grid-area: photo22;
+}
+#fondosignin .mt .grids-account .background2 {
+  background-color: rgba(105, 105, 105, 0.295);
+  width: 75rem;
+  height: 37rem;
+}
+#fondosignin .mt .grids-account .m-photo {
+  margin-left: 9rem;
+}
+#fondosignin .mt .grids-account .m-photo-3 {
+  margin-left: 1rem;
+}
 
 /*# sourceMappingURL=styles.css.map */
