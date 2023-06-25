@@ -1,0 +1,84 @@
+#fondogallery{
+    background-image: url(../Imagenes/fondogallery.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer5{
+    
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.footer5{
+    
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem 10rem;
+    grid-template-rows: 2rem 3rem;
+    grid-template-areas:
+    "spacex spacex spacex spacex"
+    "sm sm sm sm";
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
+}
+.carousel-change{
+    
+line-height:300px;
+margin:0px auto;
+text-align:center;
+justify-content: center;
+align-content: center;
+}
+
+.carousel-change-2{
+    height: 70rem;
+}
+
+.arrow{
+    width: 11rem;
+    height: 10rem;
+    
+}
+
+@media screen and (max-width: 768px){
+    
+.row-mobile{
+    display: none;
+
+}
+#navbarText{
+
+    z-index: 100;
+
+}
+#fondogallery{
+    background-image: url(../Imagenes/gallery-mobile-09.png);
+}
+
+.carousel-change{
+    margin-top: 12rem;
+    width: 70rem;
+    height: 60rem;
+}
+
+
+.footer5{
+
+    margin-top: 22rem;
+}
+}
+
+@media screen and (max-width: 500px){
+
+.carousel-change{
+    margin-top: 9rem;
+    width: 40rem;
+    height: 60rem;
+}
+    
+.footer5{
+    margin-top: 26rem;
+}
+    }

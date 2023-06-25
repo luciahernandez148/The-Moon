@@ -1,0 +1,112 @@
+#fondoprocess{
+
+    background-image: url(../Imagenes/fondoprocess.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contenedortotal{
+
+    display: grid;
+    grid-template-columns: 30rem 32rem 32rem 32rem 32rem 25rem;
+    grid-template-rows: 5rem 4rem 30rem 30rem;
+    grid-template-areas:
+    "photos1 title title title title photos2 "
+    "photos1 subtitle1 subtitle2 subtitle3 subtitle4 photos2 "
+    "photos1 description1 description2 description3 description4 photos2 "
+    "photos1 photo1 photo2 photo3 photo4 photos2";
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
+    padding-top: 11rem;
+}
+
+.processtitle{
+
+    grid-area: title;
+    font-size: 25px;
+}
+
+.border{
+
+    border: 1px solid white;
+}
+
+.subtitlesx4{
+
+    font-size: 2rem;    
+}
+
+.step1{
+
+    grid-area: subtitle1;
+
+}
+
+.step2{
+
+    grid-area: subtitle2;
+}
+
+.step3{
+
+    grid-area: subtitle3;
+}
+
+.step4{
+
+    grid-area: subtitle4;
+}
+
+.p1{
+    grid-area: description1;
+    font-size: 2px;
+}
+
+.p2{
+    grid-area: description2;
+    font-size: 2px;
+}
+
+.p3{
+    grid-area: description3;
+    font-size: 2px;
+}
+
+.p4{
+    grid-area: description4;
+    font-size: 2px;
+}
+
+.photo1{
+    width: 300px;
+    grid-area: photo1;
+}
+
+.photo2{
+    width: 300px;
+    grid-area: photo2;
+}
+
+.photo3{
+    width: 300px;
+    grid-area: photo3;
+}
+
+.photo4{
+    width: 300px;
+    grid-area: photo4;
+}
+
+.imgastronaut1{
+
+    grid-area: photos1;
+    width: 17rem;
+}
+
+.imgastronaut2{
+
+    grid-area: photos2;
+    width: 23rem;
+}

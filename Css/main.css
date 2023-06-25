@@ -1,4 +1,4 @@
-/* OTROS INICIO */
+/* OTROS INICIO 
 
 
 
@@ -20,7 +20,7 @@ p{
 
 
 /* OTROS FIN */
-/* HEADER INICIO */
+/* HEADER INICIO 
 
 .navbar-nav{
     font-size: 3rem;
@@ -102,9 +102,9 @@ p{
 }
 
 /* HEADER FIN */
-/* MAIN INICIO */
+/* MAIN INICIO
 
-#fondomain{
+.fondomain{
     background-image: url(../Imagenes/fondomain.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,7 +168,7 @@ p{
 }
 
 
-/* MAIN FIN */
+MAIN FIN */
 /* ABOUT US INCIO*/
 
 
