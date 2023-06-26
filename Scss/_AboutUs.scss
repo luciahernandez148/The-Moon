@@ -1,3 +1,8 @@
+@mixin tamanos2{
+    width: 55em;
+    height: 55rem;
+}
+
 #fondoaboutus{
     background-image: url(../Imagenes/fondoaboutus.png);
     background-repeat: no-repeat;
@@ -17,8 +22,11 @@
             padding: 11rem;
             .video{
                 grid-area: video;
-                width: 55em;
-                height: 55rem;
+                @include tamanos2;
+                .iframe{
+                    width: 100%;
+                    height: 100%;
+                }
                 }
             }
             .photo{
@@ -38,9 +46,9 @@
             }
             .video2{
                 grid-area: video2;
-                width: 55em;
-                height: 55rem;
-                }
+                @include tamanos2;
+                @extend .iframe;
+            }
             .text4{
             grid-area: text4;
             }
@@ -48,8 +56,10 @@
             grid-area: photo3;
                 .elon1{
                     width: 47rem;
+                }
             }
         }
-}
+    
+
 
 

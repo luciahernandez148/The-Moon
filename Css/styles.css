@@ -136,6 +136,10 @@ p {
   width: 55em;
   height: 55rem;
 }
+#fondoaboutus .contenedor-total-2 .video .iframe, #fondoaboutus .contenedor-total-2 .video .video2 {
+  width: 100%;
+  height: 100%;
+}
 #fondoaboutus .photo {
   grid-area: photo;
 }
