@@ -17,9 +17,8 @@
             padding: 11rem;
             .video{
                 grid-area: video;
-                .video4{
-                    width: 55em;
-                    height: 55rem;
+                width: 55em;
+                height: 55rem;
                 }
             }
             .photo{
@@ -39,10 +38,9 @@
             }
             .video2{
                 grid-area: video2;
-                .video4--vid4{
-                    @extend .video4;
+                width: 55em;
+                height: 55rem;
                 }
-            }
             .text4{
             grid-area: text4;
             }
@@ -50,8 +48,8 @@
             grid-area: photo3;
                 .elon1{
                     width: 47rem;
-                }
             }
         }
 }
+
 

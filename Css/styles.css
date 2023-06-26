@@ -133,36 +133,36 @@ p {
 }
 #fondoaboutus .contenedor-total-2 .video {
   grid-area: video;
-}
-#fondoaboutus .contenedor-total-2 .video .video4, #fondoaboutus .contenedor-total-2 .video .video2 .video4--vid4, #fondoaboutus .contenedor-total-2 .video2 .video .video4--vid4 {
   width: 55em;
   height: 55rem;
 }
-#fondoaboutus .contenedor-total-2 .photo {
+#fondoaboutus .photo {
   grid-area: photo;
 }
-#fondoaboutus .contenedor-total-2 .photo .elon1 {
+#fondoaboutus .photo .elon1 {
   width: 47rem;
 }
-#fondoaboutus .contenedor-total-2 .photo2 {
+#fondoaboutus .photo2 {
   grid-area: photo2;
 }
-#fondoaboutus .contenedor-total-2 .photo2 .spacexrocket {
+#fondoaboutus .photo2 .spacexrocket {
   width: 20rem;
 }
-#fondoaboutus .contenedor-total-2 .text2 {
+#fondoaboutus .text2 {
   grid-area: text3;
 }
-#fondoaboutus .contenedor-total-2 .video2 {
+#fondoaboutus .video2 {
   grid-area: video2;
+  width: 55em;
+  height: 55rem;
 }
-#fondoaboutus .contenedor-total-2 .text4 {
+#fondoaboutus .text4 {
   grid-area: text4;
 }
-#fondoaboutus .contenedor-total-2 .photo3 {
+#fondoaboutus .photo3 {
   grid-area: photo3;
 }
-#fondoaboutus .contenedor-total-2 .photo3 .elon1 {
+#fondoaboutus .photo3 .elon1 {
   width: 47rem;
 }
 
