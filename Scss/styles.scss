@@ -7,3 +7,13 @@
 @import "BuyTickets";
 @import "Contact";
 @import "SignIn";
+
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin tamanos ($height, $width){
+    height: $height;
+    width: $width;
+}

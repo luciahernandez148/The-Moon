@@ -24,7 +24,7 @@ p {
   margin-left: 4rem;
 }
 .header1 .navbar {
-  margin-top: -8.2rem;
+  margin-top: -4rem;
 }
 .header1 .navbar .navbar-nav {
   font-size: 3rem;
@@ -134,7 +134,7 @@ p {
 #fondoaboutus .contenedor-total-2 .video {
   grid-area: video;
 }
-#fondoaboutus .contenedor-total-2 .video .video4 {
+#fondoaboutus .contenedor-total-2 .video .video4, #fondoaboutus .contenedor-total-2 .video .video2 .video4--vid4, #fondoaboutus .contenedor-total-2 .video2 .video .video4--vid4 {
   width: 55em;
   height: 55rem;
 }
@@ -155,10 +155,6 @@ p {
 }
 #fondoaboutus .contenedor-total-2 .video2 {
   grid-area: video2;
-}
-#fondoaboutus .contenedor-total-2 .video2 .video4 {
-  width: 55em;
-  height: 55rem;
 }
 #fondoaboutus .contenedor-total-2 .text4 {
   grid-area: text4;

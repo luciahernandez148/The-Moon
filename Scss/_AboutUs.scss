@@ -39,9 +39,8 @@
             }
             .video2{
                 grid-area: video2;
-                .video4{
-                    width: 55em;
-                    height: 55rem;
+                .video4--vid4{
+                    @extend .video4;
                 }
             }
             .text4{
@@ -49,9 +48,10 @@
             }
             .photo3{
             grid-area: photo3;
-            .elon1{
-                width: 47rem;
-            }
+                .elon1{
+                    width: 47rem;
+                }
             }
         }
 }
+
