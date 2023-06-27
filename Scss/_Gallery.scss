@@ -16,69 +16,83 @@
             height: 10rem;   
         }
     }
-    .footer5{
-        display: flex;
-        margin-top: 3rem;
-        justify-content: center;
-        .footer7{
-            display: grid;
-            grid-template-columns: 10rem 10rem 10rem 10rem;
-            grid-template-rows: 2rem 3rem;
-            grid-template-areas:
-            "spacex spacex spacex spacex"
-            "sm sm sm sm";
-            justify-items: center;
-            align-items: center;
-            gap: 5px;
-            .grids4{
-                grid-area: spacex;
-            }
-            .grids5{
-                grid-area: sm;
-                font-size: 1.5rem;
-            }
-        }
+    .margins{
+        margin-bottom: -40rem;
+    }
+    .gal1{
+        transform: translate(130rem, -20rem);
+        z-index: -10000;
+    }
+    .gal2{
+        transform: translate(-45rem, -10rem);
+        z-index: -10000;
     }
 }
 
 
 @media screen and (max-width: 768px){
-    
-.row-mobile{
-    display: none;
 
-}
-#navbarText{
-
-    z-index: 100;
-
-}
 #fondogallery{
     background-image: url(../Imagenes/gallery-mobile-09.png);
-}
-
-.carousel-change{
-    margin-top: 12rem;
-    width: 70rem;
-    height: 60rem;
-}
-
-
-.footer5{
-
-    margin-top: 22rem;
-}
-}
-
-@media screen and (max-width: 500px){
-
-.carousel-change{
-    margin-top: 9rem;
-    width: 40rem;
-    height: 60rem;
-}
-    
-.footer5{
-    margin-top: 26rem;
-}
+    .header1{
+        .logospx1{
+            width: 40rem;
+        }
+        #navbarText{
+        z-index: 100;
+        }
     }
+    .carousel-change{
+        margin-top: 2rem;
+        width: 65rem;
+        height: 60rem;
+    }
+    .row-mobile{
+        display: none;
+    }
+    .gal1{
+        height: 25rem;
+        transform: translate(-3rem, -20rem);
+    }
+    .gal2{
+        height: 25rem;
+        transform: translate(26rem, 20rem);
+    }
+    .arrow{
+        width: 1rem;
+        height: 1rem;   
+    }
+}
+}
+@media screen and (max-width: 500px){
+    #fondogallery{
+.header1{
+    .logospx1{
+        width: 25rem;
+    }
+    #navbarText{
+        z-index: 100;
+    }
+}
+.carousel-change{
+    margin-top: 1rem;    
+    width: 40rem;
+    height: 45rem;  
+}  
+.gal1{
+    height: 15rem;
+    transform: translate(-1rem, -9rem);
+}
+.gal2{
+    height: 15rem;
+    transform: translate(7rem, 30rem);
+}
+.row-mobile{
+    display: none;
+}
+.button-move{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+}
+}

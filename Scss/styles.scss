@@ -18,3 +18,15 @@
     height: $height;
     width: $width;
 }
+
+@keyframes move{
+    0%{
+        transform: translate(0rem, 0rem);
+    }
+    50%{
+        transform: translate(0rem 20rem);
+    }
+    100%{
+        transform: translate(0rem -20rem);
+    }
+}

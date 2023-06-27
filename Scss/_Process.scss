@@ -1,26 +1,118 @@
+@mixin cards{
+    margin-top: -3rem;
+    height: 60rem;
+    width: 40rem;
+    border-radius: 3rem;
+    background: rgb(24,38,53);
+    background: linear-gradient(0deg, rgba(24,38,53,0) 6%, rgba(24,38,53,0.2329306722689075) 18%, rgba(30,53,71,0.3757878151260504) 75%, rgba(5,15,23,0.9500175070028011) 100%);
+    .h1caract{
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        color: $ColorCards;
+    }
+    .h2caract{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .h3caract{
+        display: flex;
+        transform: translate(5rem, -2rem);
+        font-size: 20px;
+        margin-top: 6rem;
+        color: $ColorCards;
+    }
+    .pcaract{
+        color: $ColorPrincipal;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+    .arrow2{
+        height: 34rem;
+        transform: translate(9rem,);
+        justify-content: baseline;
+        align-content: baseline;
+    }
+
+}
+
 #fondoprocess{
     background-image: url(../Imagenes/fondoprocess.png);
     background-repeat: no-repeat;
     background-size: cover;
-    .contenedortotal{
+    .container-flex-main{
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+        justify-content: center;
+        margin-top: 11rem;
+        .div1{
+            @include cards;
+        }
+    }
+}
+
+/* TABLET */
+@media screen and (max-width: 768px){
+
+.navbar{
+    font-size: .6rem;
+    align-content: center;
+    justify-items: center;
+}
+#fondoprocess{
+    .container-flex-main{
+        flex-direction: column;
+        align-items: center;
+        gap: 15rem;
+    }
+    .button-move{
+        margin-right: 9rem;
+        margin-top: 1rem;
+    }
+}
+}
+
+/* CELULAR */
+@media screen and (max-width: 500px){
+    
+#fondoprocess{
+    .container-flex-main{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 7rem;
+    }
+    .button-move{
+        margin-right: -4rem;
+        margin-top: 1rem;
+    }
+}
+}
+    
+    
+    /* .contenedortotal{
+        
         display: grid;
-        grid-template-columns: 30rem 32rem 32rem 32rem 32rem 25rem;
+        grid-template-columns:  3rem 45rem 45rem 45rem 45rem ;
         grid-template-rows: 5rem 4rem 30rem 30rem;
         grid-template-areas:
-        "photos1 title title title title photos2 "
-        "photos1 subtitle1 subtitle2 subtitle3 subtitle4 photos2 "
-        "photos1 description1 description2 description3 description4 photos2 "
-        "photos1 photo1 photo2 photo3 photo4 photos2";
+        "none title title title title "
+        "none subtitle1 subtitle2 subtitle3 subtitle4 "
+        "none description1 description2 description3 description4 "
+        "none photo1 photo2 photo3 photo4 ";
         justify-items: center;
         align-items: center;
         gap: 5px;
-        padding-top: 11rem;
+        padding-top: 6rem;
         .processtitle{
             grid-area: title;
             font-size: 25px;
         }
         .subtitlesx4{
-            font-size: 2rem;    
+            font-size: 2rem; 
+            margin-top: 2rem;   
         }
         .step1{
             grid-area: subtitle1;
@@ -66,19 +158,11 @@
             width: 300px;
             grid-area: photo4;
         }
-        .imgastronaut1{
-            grid-area: photos1;
-            width: 17rem;
-        }
-        .imgastronaut2{
-        grid-area: photos2;
-        width: 23rem;
-        }
     }
 }
 
 
-
+*/
 
 
 

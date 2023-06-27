@@ -1,3 +1,31 @@
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes move1{
+    0%{
+        transform: translate(0rem, 2rem);
+    }
+    50%{
+        transform: translate(0rem, 3rem);
+    }
+    100%{
+        transform: translate(0rem, 2rem);
+    }
+}
+
+@keyframes move2{
+    0%{
+        transform: translate(0rem, -4rem);
+    }
+    50%{
+        transform: translate(0rem, -3rem);
+    }
+    100%{
+        transform: translate(0rem, -4rem);
+    }
+}
 #fondosignin{
     background-image: url(../Imagenes/fondoaccount-07.png);
     background-repeat: no-repeat;
@@ -12,12 +40,27 @@
             "photo22 text20 photo11";
             .text20{
                 grid-area: text20;
+                .move3{
+                    margin-top: 1rem;
                 }
+                .color2{
+                    color: $ColorPrincipal;
+                }
+            }
             .photo11{
                 grid-area: photo11;
-                }
+                animation-name: move1;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                animation-duration: 5s;
+            }
+                
             .photo22{
                 grid-area: photo22;
+                animation-name: move2;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                animation-duration: 5s;
             }
             .background2{
                 background-color: $FondoTransparente;
@@ -30,6 +73,9 @@
             .m-photo-3{
                 margin-left: 1rem;
                 }
+            .z-index{
+                z-index: 1000;
+            }
         }
     }
 }
