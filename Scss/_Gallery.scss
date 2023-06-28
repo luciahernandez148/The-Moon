@@ -21,11 +21,9 @@
     }
     .gal1{
         transform: translate(130rem, -20rem);
-        z-index: -10000;
     }
     .gal2{
         transform: translate(-45rem, -10rem);
-        z-index: -10000;
     }
 }
 
@@ -35,12 +33,12 @@
 #fondogallery{
     background-image: url(../Imagenes/gallery-mobile-09.png);
     .header1{
-        .logospx1{
-            width: 40rem;
-        }
         #navbarText{
         z-index: 100;
         }
+    }
+    .carousel-indicators{
+        display: none;
     }
     .carousel-change{
         margin-top: 2rem;
@@ -58,41 +56,70 @@
         height: 25rem;
         transform: translate(26rem, 20rem);
     }
-    .arrow{
-        width: 1rem;
-        height: 1rem;   
+    .navbar{
+        .button-move{
+            margin-top: 5rem;
+        }
     }
 }
 }
 @media screen and (max-width: 500px){
+#fondogallery{
+    .header1{
+        #navbarText{
+            z-index: 100;
+        }
+    }
+    .carousel-change{
+        margin-top: 1rem;    
+        width: 40rem;
+        height: 45rem;  
+    }  
+    .gal1{
+        height: 15rem;
+        transform: translate(-1rem, -6rem);
+    }
+    .gal2{
+        height: 15rem;
+        transform: translate(13rem, 30rem);
+    }
+    .navbar{
+        .button-move{
+            margin-top: 5rem;
+        }
+    }
+}
+}
+
+@media screen and (max-width: 400px){
     #fondogallery{
-.header1{
-    .logospx1{
-        width: 25rem;
-    }
-    #navbarText{
-        z-index: 100;
-    }
-}
-.carousel-change{
-    margin-top: 1rem;    
-    width: 40rem;
-    height: 45rem;  
-}  
-.gal1{
-    height: 15rem;
-    transform: translate(-1rem, -9rem);
-}
-.gal2{
-    height: 15rem;
-    transform: translate(7rem, 30rem);
-}
-.row-mobile{
-    display: none;
-}
-.button-move{
-    margin-right: 1rem;
-    margin-top: 1rem;
-}
+        .header1{
+            #navbarText{
+                z-index: 100;
+            }
+        }
+        .carousel-change{   
+            width: 30rem;
+            height: 50rem; 
+        }  
+        .gal1{
+            height: 15rem;
+            transform: translate(-1rem, -50rem);
+        }
+        .gal2{
+            height: 15rem;
+            transform: translate(1rem, -18rem);
+        }
+        .header1{
+            .navbar{
+                .button-move{
+                    margin-right: -45%;
+                    margin-top: 5.5rem;
+                }
+            }
+        }
+        .margins{
+            margin-bottom: 1rem;
+        }
 }
 }

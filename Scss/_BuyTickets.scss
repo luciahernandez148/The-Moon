@@ -88,36 +88,73 @@
 /* TABLET */
 @media screen and (max-width: 768px){
 
-.navbar{
-        font-size: .6rem;
-        align-content: center;
-        justify-items: center;
-    }
-
-#fondobuytickets{
-    .container-flex-main{
-        flex-direction: column;
-        align-items: center;
-    }
-    .button-move{
-        margin-right: 9rem;
-        margin-top: 1rem;
-    }
-}
-}
-
-/* CELULAR */
-@media screen and (max-width: 500px){
-
     #fondobuytickets{
         .container-flex-main{
             flex-direction: column;
             align-items: center;
-            margin-left: 7rem;
+            gap: 3rem;
+            .div1{
+                width: 50rem;
+                height: 60rem;
+                transition: none;
+                .div1:hover{
+                    display: none;
+                }
+            }
+            .div2{
+                width: 50rem;
+                height: 60rem;
+                .div2:hover{
+                    display: none;
+                }
+            }
+            .div3{
+                width: 50rem;
+                height: 60rem;
+            .div3:hover{
+                display: none;
+            }
+            }
         }
-        .button-move{
-            margin-right: -4rem;
-            margin-top: 1rem;
+        .navbar{
+            .button-move{
+                margin-top: 5rem;
+            }
         }
     }
-}
+    }
+    
+    /* CELULAR */
+    @media screen and (max-width: 500px){
+    
+    #fondobuytickets{
+        .container-flex-main{
+            .div1{
+                width: 100%;
+                height: 70rem;
+                .div1:hover{
+                    display: none;
+                }
+            }
+            .div2{
+                width: 100%;
+                height: 70rem;
+                .div2:hover{
+                    display: none;
+                }
+            }
+            .div3{
+                width: 100%;
+                height: 70rem;
+            .div3:hover{
+                display: none;
+            }
+            }
+        .navbar{
+            .button-move{
+                margin-top: 5rem;
+            }
+        }
+    }
+    }
+    }

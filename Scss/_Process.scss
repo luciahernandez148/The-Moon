@@ -1,6 +1,6 @@
 @mixin cards{
     margin-top: -3rem;
-    height: 60rem;
+    height: 80rem;
     width: 40rem;
     border-radius: 3rem;
     background: rgb(24,38,53);
@@ -57,20 +57,22 @@
 /* TABLET */
 @media screen and (max-width: 768px){
 
-.navbar{
-    font-size: .6rem;
-    align-content: center;
-    justify-items: center;
-}
 #fondoprocess{
     .container-flex-main{
         flex-direction: column;
         align-items: center;
-        gap: 15rem;
+        gap: 3rem;
+        .div1{
+            width: 50rem;
+            .arrow2{
+                transform: translate(14rem,);
+            }
+        }
     }
-    .button-move{
-        margin-right: 9rem;
-        margin-top: 1rem;
+    .navbar{
+        .button-move{
+            margin-top: 5rem;
+        }
     }
 }
 }
@@ -82,87 +84,21 @@
     .container-flex-main{
         flex-direction: column;
         align-items: center;
-        margin-left: 7rem;
+        gap: 3rem;
+        .div1{
+            width: 33rem;
+            .arrow2{
+                transform: translate(4rem,);
+            }
+        }
+        .div2{
+            height: 90rem;
+        }
     }
-    .button-move{
-        margin-right: -4rem;
-        margin-top: 1rem;
-    }
-}
-}
-    
-    
-    /* .contenedortotal{
-        
-        display: grid;
-        grid-template-columns:  3rem 45rem 45rem 45rem 45rem ;
-        grid-template-rows: 5rem 4rem 30rem 30rem;
-        grid-template-areas:
-        "none title title title title "
-        "none subtitle1 subtitle2 subtitle3 subtitle4 "
-        "none description1 description2 description3 description4 "
-        "none photo1 photo2 photo3 photo4 ";
-        justify-items: center;
-        align-items: center;
-        gap: 5px;
-        padding-top: 6rem;
-        .processtitle{
-            grid-area: title;
-            font-size: 25px;
-        }
-        .subtitlesx4{
-            font-size: 2rem; 
-            margin-top: 2rem;   
-        }
-        .step1{
-            grid-area: subtitle1;
-        }
-        .step2{
-            grid-area: subtitle2;
-        }
-        .step3{
-            grid-area: subtitle3;
-        }
-        .step4{
-            grid-area: subtitle4;
-        }
-        .p1{
-            grid-area: description1;
-            font-size: 2px;
-        }
-        .p2{
-            grid-area: description2;
-            font-size: 2px;
-        }
-        .p3{
-            grid-area: description3;
-            font-size: 2px;
-        }
-        .p4{
-            grid-area: description4;
-            font-size: 2px;
-        }
-        .photo1{
-            width: 300px;
-            grid-area: photo1;
-        }
-        .photo2{
-            width: 300px;
-            grid-area: photo2;
-        }
-        .photo3{
-            width: 300px;
-            grid-area: photo3;
-        }
-        .photo4{
-            width: 300px;
-            grid-area: photo4;
+    .navbar{
+        .button-move{
+            margin-top: 5rem;
         }
     }
 }
-
-
-*/
-
-
-
+}

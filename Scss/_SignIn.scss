@@ -39,6 +39,8 @@
             grid-template-areas:
             "photo22 text20 photo11";
             .text20{
+                margin-left: 20px;
+
                 grid-area: text20;
                 .move3{
                     margin-top: 1rem;
