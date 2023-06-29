@@ -67,26 +67,26 @@
     .mt{
         margin-top: 18rem;
         .grids-account{
-            grid-template-columns: 20rem ;
+            grid-template-columns: 10rem 30rem 10rem;
             grid-template-rows:40rem;
             grid-template-areas:
-            "text20";
+            "photo22 text20 photo11";
             margin-top: -14rem;
             .text20{
                 width: 30rem;
             }
             .background2{
-                width: 40rem;
+                width: 50rem;
                 height: 37rem;
             }
                 .m-photo-2{
-                    width: 5rem;
+                    width: 25rem;
                 }
                 .photo11{
-                    transform: translate(-25rem, -25rem);
+                    transform: translate(5rem, 10rem);
                 }
                 .photo22{
-                    transform: translate(-25rem, -25rem);
+                    transform: translate(-10rem, 9rem);
                 }
             }
         }
@@ -94,32 +94,41 @@
 }
 
 @media screen and (max-width: 500px){
-    
-    #fondosignin{
-        .navbar{
-            .button-move{
-                margin-top: 5rem;
+
+#fondosignin{
+    .navbar{
+        .button-move{
+            margin-top: 5rem;
+        }
+        .logospx{
+            height: 1rem;
+        }
+    }
+    .mt{
+        margin-top: 18rem;
+        .grids-account{
+            grid-template-columns:1rem 30rem 1rem;
+            grid-template-rows:40rem;
+            grid-template-areas:
+            "none text20 none";
+            margin-top: none;
+            .text20{
+                width: 30rem;
+            }
+            .background2{
+                width: 33rem;
+                height: 37rem;
+            }
+                .m-photo-2{
+                    width: 15rem;
+                }
+                .photo11{
+                    transform: translate(-9rem, 25rem);
+                }
+                .photo22{
+                    display: none;
+                }
             }
         }
-        .background2{
-            grid-template-columns:100%;
-            grid-template-rows: 4rem 30rem 10rem;
-            grid-template-areas:
-            "text5"
-            "text6"
-            "photo5";
-            width: 40rem;
-            height: 70rem;
-            margin-top: 5rem;
-                .more{
-                    transform: translate(1rem, 1rem);
-                    width: 60rem;
-                    }
-                .photo5{
-                    width: 70rem;
-                    transform: translate(-1rem, 10rem);
-                }
-        }
     }
-    }
-    
+}
