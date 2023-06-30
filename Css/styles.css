@@ -4,6 +4,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#fondoaboutus .header1 .navbar {
+  margin-top: -4.7rem;
+}
 #fondoaboutus .contenedor-total-2 {
   display: grid;
   grid-template-columns: 70rem 60rem 60rem;
@@ -85,7 +88,7 @@
     display: none;
   }
   #fondoaboutus .navbar .button-move {
-    margin-top: 5rem;
+    margin-top: 1.2rem;
   }
 }
 @media screen and (max-width: 500px) {
@@ -132,14 +135,14 @@
   #fondoaboutus .contenedor-total-2 .text4 .text3 {
     font-size: 1.2rem;
   }
-  #fondoaboutus .navbar .button-move {
-    margin-top: 5rem;
-  }
 }
 #fondogallery {
   background-image: url(../Imagenes/fondogallery.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+#fondogallery .header1 .navbar {
+  margin-top: -4.7rem;
 }
 #fondogallery .carousel-change {
   line-height: 300px;
@@ -192,7 +195,7 @@
     transform: translate(26rem, 20rem);
   }
   #fondogallery .navbar .button-move {
-    margin-top: 5rem;
+    margin-top: 1.2rem;
   }
 }
 @media screen and (max-width: 500px) {
@@ -210,10 +213,7 @@
   }
   #fondogallery .gal2 {
     height: 15rem;
-    transform: translate(13rem, 30rem);
-  }
-  #fondogallery .navbar .button-move {
-    margin-top: 5rem;
+    transform: translate(11rem, 30rem);
   }
 }
 @media screen and (max-width: 400px) {
@@ -232,10 +232,6 @@
     height: 15rem;
     transform: translate(1rem, -18rem);
   }
-  #fondogallery .header1 .navbar .button-move {
-    margin-right: -45%;
-    margin-top: 5.5rem;
-  }
   #fondogallery .margins {
     margin-bottom: 1rem;
   }
@@ -244,6 +240,9 @@
   background-image: url(../Imagenes/fondoprocess.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+#fondoprocess .header1 .navbar {
+  margin-top: -4.7rem;
 }
 #fondoprocess .container-flex-main {
   display: flex;
@@ -305,7 +304,7 @@
     transform: translate(14rem);
   }
   #fondoprocess .navbar .button-move {
-    margin-top: 5rem;
+    margin-top: 1.2rem;
   }
 }
 /* CELULAR */
@@ -324,14 +323,14 @@
   #fondoprocess .container-flex-main .div2 {
     height: 90rem;
   }
-  #fondoprocess .navbar .button-move {
-    margin-top: 5rem;
-  }
 }
 #fondobuytickets {
   background-image: url(../Imagenes/fondobuytickets.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+#fondobuytickets .header1 .navbar {
+  margin-top: -4.7rem;
 }
 #fondobuytickets .container-flex-main {
   display: flex;
@@ -500,13 +499,13 @@
   }
   #fondobuytickets .container-flex-main .div3 {
     width: 50rem;
-    height: 60rem;
+    height: 65rem;
   }
   #fondobuytickets .container-flex-main .div3 .div3:hover {
     display: none;
   }
   #fondobuytickets .navbar .button-move {
-    margin-top: 5rem;
+    margin-top: 1.2rem;
   }
 }
 /* CELULAR */
@@ -541,6 +540,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#fondocontact .header1 .navbar {
+  margin-top: -4.7rem;
+}
 #fondocontact .background1 {
   display: grid;
   grid-template-columns: 70rem 50rem;
@@ -574,7 +576,7 @@
 /* TABLET */
 @media screen and (max-width: 768px) {
   #fondocontact .navbar .button-move {
-    margin-top: 5rem;
+    margin-top: 1.2rem;
   }
   #fondocontact .background1 {
     grid-template-columns: 30rem 25rem;
@@ -597,16 +599,16 @@
     margin-top: 5rem;
   }
   #fondocontact .background1 {
-    grid-template-columns: 100%;
-    grid-template-rows: 4rem 30rem 10rem;
+    grid-template-columns: 50rem;
+    grid-template-rows: 5rem 40rem 30rem;
     grid-template-areas: "text5" "text6" "photo5";
-    width: 40rem;
-    height: 70rem;
+    width: 50rem;
+    height: 90rem;
     margin-top: 5rem;
   }
   #fondocontact .background1 .more {
     transform: translate(1rem, 1rem);
-    width: 60rem;
+    width: 40rem;
   }
   #fondocontact .background1 .photo5 {
     width: 70rem;
@@ -617,6 +619,9 @@
   background-image: url(../Imagenes/fondoaccount-07.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+#fondosignin .header1 .navbar {
+  margin-top: -4.7rem;
 }
 #fondosignin .mt {
   margin-top: 18rem;
@@ -669,34 +674,34 @@
 /* TABLET */
 @media screen and (max-width: 768px) {
   #fondosignin .navbar .button-move {
-    margin-top: 5rem;
+    margin-top: 1.2rem;
   }
-  #fondosignin .navbar .logospx {
+  #fondosignin .logospx {
     height: 1rem;
   }
-  #fondosignin .mt {
+  .mt {
     margin-top: 18rem;
   }
-  #fondosignin .mt .grids-account {
+  .mt .grids-account {
     grid-template-columns: 10rem 30rem 10rem;
     grid-template-rows: 40rem;
     grid-template-areas: "photo22 text20 photo11";
     margin-top: -14rem;
   }
-  #fondosignin .mt .grids-account .text20 {
+  .mt .grids-account .text20 {
     width: 30rem;
   }
-  #fondosignin .mt .grids-account .background2 {
+  .mt .grids-account .background2 {
     width: 50rem;
     height: 37rem;
   }
-  #fondosignin .mt .grids-account .m-photo-2 {
+  .mt .grids-account .m-photo-2 {
     width: 25rem;
   }
-  #fondosignin .mt .grids-account .photo11 {
+  .mt .grids-account .photo11 {
     transform: translate(5rem, 10rem);
   }
-  #fondosignin .mt .grids-account .photo22 {
+  .mt .grids-account .photo22 {
     transform: translate(-10rem, 9rem);
   }
 }

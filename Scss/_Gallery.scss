@@ -2,6 +2,11 @@
     background-image: url(../Imagenes/fondogallery.png);
     background-repeat: no-repeat;
     background-size: cover;
+    .header1{
+        .navbar{
+            margin-top: -4.7rem;
+    }
+    }
     .carousel-change{
         line-height:300px;
         margin:0px auto;
@@ -58,7 +63,7 @@
     }
     .navbar{
         .button-move{
-            margin-top: 5rem;
+            margin-top: 1.2rem;
         }
     }
 }
@@ -81,13 +86,9 @@
     }
     .gal2{
         height: 15rem;
-        transform: translate(13rem, 30rem);
+        transform: translate(11rem, 30rem);
     }
-    .navbar{
-        .button-move{
-            margin-top: 5rem;
-        }
-    }
+
 }
 }
 
@@ -109,14 +110,6 @@
         .gal2{
             height: 15rem;
             transform: translate(1rem, -18rem);
-        }
-        .header1{
-            .navbar{
-                .button-move{
-                    margin-right: -45%;
-                    margin-top: 5.5rem;
-                }
-            }
         }
         .margins{
             margin-bottom: 1rem;

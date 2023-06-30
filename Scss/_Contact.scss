@@ -2,6 +2,11 @@
     background-image: url(../Imagenes/fondocontactus-05.png);
     background-repeat: no-repeat;
     background-size: cover;
+    .header1{
+        .navbar{
+            margin-top: -4.7rem;
+    }
+    }
     .background1{
         display: grid;
         grid-template-columns: 70rem 50rem;
@@ -41,7 +46,7 @@
 #fondocontact{
     .navbar{
         .button-move{
-            margin-top: 5rem;
+            margin-top: 1.2rem;
         }
     }
     .background1{
@@ -72,18 +77,18 @@
         }
     }
     .background1{
-        grid-template-columns:100%;
-        grid-template-rows: 4rem 30rem 10rem;
+        grid-template-columns:50rem;
+        grid-template-rows: 5rem 40rem 30rem;
         grid-template-areas:
         "text5"
         "text6"
         "photo5";
-        width: 40rem;
-        height: 70rem;
+        width: 50rem;
+        height: 90rem;
         margin-top: 5rem;
             .more{
                 transform: translate(1rem, 1rem);
-                width: 60rem;
+                width: 40rem;
                 }
             .photo5{
                 width: 70rem;

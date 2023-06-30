@@ -52,6 +52,11 @@
     background-image: url(../Imagenes/fondobuytickets.png);
     background-repeat: no-repeat;
     background-size: cover;
+    .header1{
+        .navbar{
+            margin-top: -4.7rem;
+    }
+    }
     .container-flex-main{
         display: flex;
         flex-direction: row;
@@ -110,7 +115,7 @@
             }
             .div3{
                 width: 50rem;
-                height: 60rem;
+                height: 65rem;
             .div3:hover{
                 display: none;
             }
@@ -118,7 +123,7 @@
         }
         .navbar{
             .button-move{
-                margin-top: 5rem;
+                margin-top: 1.2rem;
             }
         }
     }

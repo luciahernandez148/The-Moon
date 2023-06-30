@@ -7,6 +7,11 @@
     background-image: url(../Imagenes/fondoaboutus.png);
     background-repeat: no-repeat;
     background-size: cover;
+        .header1{
+            .navbar{
+                margin-top: -4.7rem;
+        }
+        }
         .contenedor-total-2{
             display: grid;
             grid-template-columns: 70rem 60rem 60rem;
@@ -95,7 +100,7 @@
         }
         .navbar{
             .button-move{
-                margin-top: 5rem;
+                margin-top: 1.2rem;
             }
         }
     }
@@ -144,11 +149,6 @@
             .text3{
                 font-size: 1.2rem;
             }
-        }
-    }
-    .navbar{
-        .button-move{
-            margin-top: 5rem;
         }
     }
     }

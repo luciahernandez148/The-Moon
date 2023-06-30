@@ -2,6 +2,11 @@
     background-image: url(../Imagenes/fondoaccount-07.png);
     background-repeat: no-repeat;
     background-size: cover;
+    .header1{
+        .navbar{
+            margin-top: -4.7rem;
+    }
+    }
     .mt{
         margin-top: 18rem;
         .grids-account{
@@ -58,8 +63,9 @@
 #fondosignin{
     .navbar{
         .button-move{
-            margin-top: 5rem;
+            margin-top: 1.2rem;
         }
+    }
         .logospx{
             height: 1rem;
         }
@@ -91,7 +97,7 @@
             }
         }
     }
-}
+
 
 @media screen and (max-width: 500px){
 
