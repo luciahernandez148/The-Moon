@@ -5,7 +5,7 @@
     .header1{
         .navbar{
             margin-top: -4.7rem;
-    }
+        }
     }
     .background1{
         display: grid;
@@ -35,7 +35,8 @@
                 }
         .photo5{
             grid-area: photo5;
-            transform: translate(-10rem, -1rem);
+            position: relative;
+            top: -1rem; left: -10rem;
             }
     }
 }
@@ -51,7 +52,7 @@
     }
     .background1{
         grid-template-columns: 30rem 25rem;
-        grid-template-rows: 4rem 30rem;
+        grid-template-rows: 4rem 30rem 10rem;
         grid-template-areas:
         "text5 text5"
         "text6 photo5";
@@ -60,10 +61,12 @@
         margin-top: 5rem;
             .more{
                 transform: translate(1rem, 1rem);
-                width: 50rem;
+                width: 30rem;
                 }
             .photo5{
-                transform: scaleX(-1) translate(-1rem, 10rem);
+                transform: scaleX(-1);
+                position: relative;
+                top: 10rem; left: 5rem;
             }
     }
 }
@@ -73,27 +76,56 @@
 #fondocontact{
     .navbar{
         .button-move{
-            margin-top: 5rem;
+            margin-top: -5rem;
         }
     }
     .background1{
-        grid-template-columns:50rem;
-        grid-template-rows: 5rem 40rem 30rem;
+        grid-template-columns:35rem;
+        grid-template-rows: 1rem 40rem 30rem;
         grid-template-areas:
         "text5"
         "text6"
         "photo5";
-        width: 50rem;
+        width: 95rem;        
         height: 90rem;
         margin-top: 5rem;
             .more{
-                transform: translate(1rem, 1rem);
-                width: 40rem;
+                position: relative;
+                top: 10rem; left: 2.5rem;;
+                width: 30rem;
+                height: 100%;
                 }
             .photo5{
-                width: 70rem;
-                transform: translate(-1rem, 10rem);
+                width: 10rem;
+                transform: scaleX(-1);
+                position: relative;
+                top: 10rem; left: 20rem;
+            }
             }
     }
 }
-}
+
+@media screen and (max-width: 450px){
+
+    #fondocontact{
+        .navbar{
+            .button-move{
+                margin-top: 2rem;
+            }
+        }
+        .background1{
+            grid-template-columns:35rem;
+            width: 38rem;        
+            height: 80rem;
+            margin-top: 5rem;
+                .more{
+                    top: 10rem; left: 2.5rem;;
+                    width: 25rem;
+                    }
+                .photo5{
+                    position: relative;
+                    top: 6rem; left: 20rem;
+                }
+                }
+        }
+    }

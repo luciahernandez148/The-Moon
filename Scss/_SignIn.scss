@@ -7,134 +7,154 @@
             margin-top: -4.7rem;
     }
     }
-    .mt{
-        margin-top: 18rem;
-        .grids-account{
-            display: grid;
-            grid-template-columns: 33rem 40rem 30rem ;
-            grid-template-rows:50rem ;
-            grid-template-areas:
-            "photo22 text20 photo11";
-            .text20{
-                margin-left: 20px;
-                grid-area: text20;
-                .move3{
-                    margin-top: 1rem;
-                }
-                .color2{
-                    color: $ColorPrincipal;
-                }
+}
+.mt{
+    margin-top: 18rem;
+    .grids-account{
+        display: grid;
+        grid-template-columns: 33rem 40rem 30rem ;
+        grid-template-rows:50rem ;
+        grid-template-areas:
+        "photo22 text20 photo11";
+        .text20{
+            margin-left: 20px;
+            grid-area: text20;
+            .move3{
+                margin-top: 1rem;
             }
-            .photo11{
-                grid-area: photo11;
-                animation-name: move1;
-                animation-iteration-count: infinite;
-                animation-timing-function: linear;
-                animation-duration: 5s;
+            .color2{
+                color: $ColorPrincipal;
             }
-            .photo22{
-                grid-area: photo22;
-                animation-name: move2;
-                animation-iteration-count: infinite;
-                animation-timing-function: linear;
-                animation-duration: 5s;
+        }
+        .photo11{
+            grid-area: photo11;
+        }
+        .photo22{
+            grid-area: photo22;
+        }
+        .background2{
+            background-color: $FondoTransparente;
+            width: 75rem;
+            height: 37rem;
+        }
+        .m-photo{
+            margin-left: 9rem;
             }
-            .background2{
-                background-color: $FondoTransparente;
-                width: 75rem;
-                height: 37rem;
-            }
-            .m-photo{
-                margin-left: 9rem;
-                }
-            .m-photo-3{
-                margin-left: 1rem;
-                }
-            .z-index{
-                z-index: 1000;
-            }
+        .m-photo-3{
+            margin-left: 1rem;
         }
     }
 }
+
 
 /* TABLET */
 @media screen and (max-width: 768px){
 
 #fondosignin{
-    .navbar{
-        .button-move{
-            margin-top: 1.2rem;
+    .header{
+        .navbar{
+            .button-move{
+                margin-top: 1.2rem;
+            }
         }
-    }
-        .logospx{
+        .logospx1{
             height: 1rem;
         }
     }
-    .mt{
-        margin-top: 18rem;
-        .grids-account{
-            grid-template-columns: 10rem 30rem 10rem;
-            grid-template-rows:40rem;
-            grid-template-areas:
-            "photo22 text20 photo11";
-            margin-top: -14rem;
-            .text20{
-                width: 30rem;
-            }
-            .background2{
-                width: 50rem;
-                height: 37rem;
-            }
-                .m-photo-2{
-                    width: 25rem;
-                }
-                .photo11{
-                    transform: translate(5rem, 10rem);
-                }
-                .photo22{
-                    transform: translate(-10rem, 9rem);
-                }
+}
+.mt{
+    margin-top: 18rem;
+    .grids-account{
+        grid-template-columns: 8rem 20rem 8rem ;
+        grid-template-rows:20rem ;
+        grid-template-areas:
+        "text20 text20 text20";
+        margin-top: -9rem;
+        .text20{
+            margin-left: 0rem;
+            grid-area: text20;
+            .move3{
+                margin-top: 1rem;
             }
         }
+        .photo11{
+            position: relative;
+            top: -15rem; left: 10rem;
+            .m-photo-2{
+                height: 25rem;
+            }
+        }
+        .photo22{
+            position: relative;
+            top: -15rem; left: -47rem;
+            width: 6rem;
+            .m-photo-2{
+                height: 25rem;
+            }
+        }
+        .background2{
+            width: 70rem;
+            height: 37rem;
+        }
     }
-
+}
+}
 
 @media screen and (max-width: 500px){
 
 #fondosignin{
     .navbar{
         .button-move{
-            margin-top: 5rem;
-        }
-        .logospx{
-            height: 1rem;
+            margin-top: 1.8rem;
         }
     }
     .mt{
-        margin-top: 18rem;
+        margin-top: 15rem;
         .grids-account{
-            grid-template-columns:1rem 30rem 1rem;
-            grid-template-rows:40rem;
+            grid-template-columns:0rem 35rem 0rem;
+            grid-template-rows:30rem;
             grid-template-areas:
             "none text20 none";
             margin-top: none;
+            width: 10rem;
             .text20{
                 width: 30rem;
             }
             .background2{
-                width: 33rem;
+                width: 35rem;
                 height: 37rem;
             }
-                .m-photo-2{
-                    width: 15rem;
-                }
-                .photo11{
-                    transform: translate(-9rem, 25rem);
-                }
-                .photo22{
-                    display: none;
-                }
+            .photo11{
+                position: relative;
+                top: -7rem; left: -15rem;
+            }
+            .photo22{
+                display: none;
+            }
             }
         }
     }
+}
+
+@media screen and (max-width: 350px){
+
+#fondosignin{
+    .mt{
+        .grids-account{
+            grid-template-columns:0rem 25rem 0rem;
+            grid-template-rows:30rem;
+            .text20{
+                width: 30rem;
+            }
+            .background2{
+                width: 30rem;
+                height: 37rem;
+            }
+            .photo11{
+                position: relative;
+                top: -5rem; left: -15rem;
+            }
+        }
+    }
+}
 }
