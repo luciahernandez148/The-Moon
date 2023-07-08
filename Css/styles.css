@@ -545,7 +545,7 @@
 }
 #fondocontact .background1 {
   display: grid;
-  grid-template-columns: 70rem 50rem;
+  grid-template-columns: 60rem 30rem;
   grid-template-rows: 7rem 50rem;
   grid-template-areas: "text5 text5" "photo5 text6";
   background-color: rgba(105, 105, 105, 0.295);
