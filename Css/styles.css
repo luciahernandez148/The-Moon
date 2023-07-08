@@ -584,7 +584,7 @@
     grid-template-columns: 30rem 25rem;
     grid-template-rows: 4rem 30rem 10rem;
     grid-template-areas: "text5 text5" "text6 photo5";
-    width: 65rem;
+    width: 60rem;
     height: 48rem;
     margin-top: 5rem;
   }
@@ -596,7 +596,7 @@
     transform: scaleX(-1);
     position: relative;
     top: 10rem;
-    left: 5rem;
+    left: 4rem;
   }
 }
 @media screen and (max-width: 500px) {
@@ -762,8 +762,8 @@
   }
   #fondosignin .mt .grids-account .photo11 {
     position: relative;
-    top: -7rem;
-    left: -15rem;
+    top: -4rem;
+    left: -29rem;
   }
   #fondosignin .mt .grids-account .photo22 {
     display: none;
@@ -784,7 +784,7 @@
   #fondosignin .mt .grids-account .photo11 {
     position: relative;
     top: -5rem;
-    left: -15rem;
+    left: -25rem;
   }
 }
 @keyframes move {
